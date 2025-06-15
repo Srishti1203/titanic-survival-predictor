@@ -1,45 +1,74 @@
 # 🚢 Titanic Survival Predictor
 
-A modern, interactive machine learning web app that predicts whether a passenger would survive the Titanic disaster — based on real historical data.
+A modern machine learning web application that predicts the survival of Titanic passengers using user input and a trained Random Forest model. This project demonstrates a full ML workflow — from data cleaning and training to deployment using Python, Flask, HTML, and CSS.
 
-Built using Python, Flask, HTML, CSS, and scikit-learn. Ideal for learning ML pipelines, data preprocessing, and deployment-ready web integration.
-
----
-
-## 🎯 Features
-
-- Predicts Titanic passenger survival using ML
-- Clean web UI with form inputs
-- Powered by a Random Forest classifier
-- Real-time prediction response
-- Fully local and offline ready
-- Easy to customize and extend
+> ⚡️ Clean. 🔬 Practical. 📈 Insightful. A great beginner-friendly end-to-end machine learning showcase.
 
 ---
 
-## 🧠 Tech Stack
+## 🌟 Features
 
-- **Frontend**: HTML5, CSS3
-- **Backend**: Flask (Python)
-- **Machine Learning**: scikit-learn (Random Forest)
-- **Model Training**: pandas, seaborn, matplotlib
-- **Deployment Ready**: Works locally, can deploy to Render/Replit
+- 🎯 Accurate survival predictions with real-time input
+- 🧠 Trained using a Random Forest Classifier on the Titanic dataset
+- 📊 Visual EDA with graphs and tables
+- 🌐 Frontend with HTML, CSS (no Streamlit!)
+- 📂 Organized project structure with reusable code
+- 📋 Includes classification report, confusion matrix, and model evaluation
 
 ---
 
 ## 📸 Screenshots
 
-> Add your own screenshots in an `assets/` folder and update the file paths below:
+### 🖥 Web Interface
 
-| Input Form | Prediction Result |
+| UI with Inputs |
+|----------------|
+| ![UI](assets/frontend-ui.png) |
+
+### 🎯 Prediction Outputs
+
+| Survived ✅ | Did Not Survive ❌ |
 |------------|-------------------|
-| ![form](assets/form.png) | ![result](assets/result.png) |
+| ![Yes](assets/result-yes.png) | ![No](assets/result-no.png) |
+
+### 📊 Data Analysis (Colab)
+
+| Survival by Gender | Survival by Class |
+|--------------------|-------------------|
+| ![Gender](assets/graph-survival-by-gender.png) | ![Class](assets/graph-survival-by-class.png) |
+
+### 🧾 Data Tables & Report
+
+| Summary Table | Cleaned Data | Classification Report |
+|---------------|--------------|------------------------|
+| ![Summary](assets/table-summary.png) | ![Cleaned](assets/table-cleaned-data.png) | ![Classification](assets/classification-report.png) |
 
 ---
 
-## 🧪 How to Use Locally
+## 🧠 Machine Learning Breakdown
 
-### 1. Clone the repo
+- **Algorithm:** Random Forest Classifier
+- **Features Used:**
+  - Passenger Class (`Pclass`)
+  - Sex
+  - Age
+  - Siblings/Spouses Aboard (`SibSp`)
+  - Parents/Children Aboard (`Parch`)
+  - Fare
+  - Port of Embarkation (`Embarked`)
+- **Preprocessing:**
+  - Filled missing values
+  - Encoded categorical features
+  - Dropped irrelevant features (`Name`, `Ticket`, `Cabin`)
+- **Evaluation:**
+  - Accuracy, Confusion Matrix, Precision, Recall, F1 Score
+
+---
+
+## 🧪 How to Run Locally
+
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/titanic-survival-predictor.git
 cd titanic-survival-predictor
