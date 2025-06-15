@@ -70,5 +70,5 @@ A modern machine learning web application that predicts the survival of Titanic 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/titanic-survival-predictor.git
+git clone https://github.com/srishti1203/titanic-survival-predictor.git
 cd titanic-survival-predictor
