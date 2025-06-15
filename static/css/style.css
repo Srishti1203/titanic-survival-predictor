@@ -1,0 +1,11 @@
+/* static/css/style.css */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+}
