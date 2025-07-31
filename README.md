@@ -2,18 +2,18 @@
 
 A modern machine learning web application that predicts the survival of Titanic passengers using user input and a trained Random Forest model. This project demonstrates a full ML workflow — from data cleaning and training to deployment using Python, Flask, HTML, and CSS.
 
-> ⚡️ Clean. 🔬 Practical. 📈 Insightful. A great beginner-friendly end-to-end machine learning showcase.
+> Clean.  Practical.  Insightful. A great beginner-friendly end-to-end machine learning showcase.
 
 ---
 
-## 🌟 Features
+##  Features
 
-- 🎯 Accurate survival predictions with real-time input
-- 🧠 Trained using a Random Forest Classifier on the Titanic dataset
-- 📊 Visual EDA with graphs and tables
-- 🌐 Frontend with HTML, CSS (no Streamlit!)
-- 📂 Organized project structure with reusable code
-- 📋 Includes classification report, confusion matrix, and model evaluation
+-  Accurate survival predictions with real-time input
+-  Trained using a Random Forest Classifier on the Titanic dataset
+-  Visual EDA with graphs and tables
+-  Frontend with HTML, CSS (no Streamlit!)
+-  Organized project structure with reusable code
+-  Includes classification report, confusion matrix, and model evaluation
 
 ---
 
